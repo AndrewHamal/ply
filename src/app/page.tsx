@@ -20,13 +20,20 @@ export default function Home() {
               Eliminate administrative headache and bill more with 70% fewer days to in network status.
             </p>
 
-            <div className="mt-11">
+            <div className="mt-11 flex items-center gap-7">
               <Button
                 href="/demo"
                 preset="primary"
                 text="Request Demo"
                 size="xl"
               />
+
+              <div className="w-[2px] h-[30px] bg-[#ccc]"></div>
+
+              <div>
+                <h5 className="font-[600] text-[14px]">Backed by</h5>
+                <img className="w-[130px]" src="https://framerusercontent.com/images/d1R9AwP9XnlEyZvL7QrRzMYH5A.png" alt="" />
+              </div>
             </div>
           </div>
 
