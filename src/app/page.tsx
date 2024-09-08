@@ -32,7 +32,7 @@ export default function Home() {
 
               <div>
                 <h5 className="font-[600] text-[14px]">Backed by</h5>
-                <img className="w-[130px]" src="https://framerusercontent.com/images/d1R9AwP9XnlEyZvL7QrRzMYH5A.png" alt="" />
+                <img className="w-[110px]" src="https://framerusercontent.com/images/d1R9AwP9XnlEyZvL7QrRzMYH5A.png" alt="" />
               </div>
             </div>
           </div>
@@ -88,14 +88,14 @@ export default function Home() {
       </section>
 
 
-      <section className="mb-[80px] lg:mb-[200px]">
+      <section className="mb-[80px] lg:mb-[170px]">
         <div className="lg:container m-auto px-2">
-          <div className="text-center pb-6">
+          <div className="text-center">
             <h2 className="text-4xl font-[roc-wide] text-[#160e41]">Is <span className="text-[#5d927c]">Ply</span> right for my organization?</h2>
             <p className="text-lg mt-2">Ply works with behavioral health practices of all sizes and specialties.</p>
           </div>
 
-          <div className="px-4 pt-9 grid md:grid-cols-3 md:pt-[150px] gap-10">
+          <div className="px-4 grid md:grid-cols-3 md:pt-[135px] gap-10">
             <div className="glossy-card relative">
               <div className="absolute top-[-15px] left-[-15px]">
                 <img className="w-[60px] shadow-xl shadow-[#5d927c63] rounded-full" src="https://framerusercontent.com/images/6J8qq3CP85WMDvWDjsiLDc49NWM.png?lossless=1" alt="" />
@@ -266,32 +266,32 @@ export default function Home() {
             <h2 className="text-4xl font-[roc-wide] text-[#160e41]">We work with payers in all 50 states.</h2>
           </div>
 
-          <div className="flex justify-around overflow-x-scroll overflow-y-hidden py-11  gap-3">
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] rounded-full">
+          <div className="flex justify-around overflow-x-scroll overflow-y-hidden py-11 gap-3">
+            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] min-h-[130px] rounded-full">
               <img src="https://framerusercontent.com/images/k8fYZgkzEG5UOJNqCHGdzXJeoTA.png?lossless=1" alt="" />
             </div>
 
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] rounded-full">
+            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] min-h-[130px] rounded-full">
               <img src="https://framerusercontent.com/images/Ujzqa6FaJ5FzvnQeMMm06l5SPyo.png?lossless=1" alt="" />
             </div>
 
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] rounded-full">
+            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] min-h-[130px] rounded-full">
               <img src="https://framerusercontent.com/images/LJifuQJXbwmRUkh50COz3faX4DQ.png?lossless=1" alt="" />
             </div>
 
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] rounded-full">
+            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] min-h-[130px] rounded-full">
               <img src="https://framerusercontent.com/images/b7FvVPaFNkTu1SAecqIbOh45Tk.png?lossless=1" alt="" />
             </div>
 
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] rounded-full">
+            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] min-h-[130px] rounded-full">
               <img src="https://framerusercontent.com/images/jkC59ACtitUAV4MrxgYyJnTRpUk.png?lossless=1" alt="" />
             </div>
 
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] rounded-full">
+            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] min-h-[130px] rounded-full">
               <img src="https://framerusercontent.com/images/aO6o1U3sorthcXKRBo5Qe2fUc.png?lossless=1" alt="" />
             </div>
 
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] rounded-full">
+            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] p-6 shadow-xl min-w-[130px] w-[130px] h-[130px] min-h-[130px] rounded-full">
               <img src="https://framerusercontent.com/images/UqaUBYpNE15V57y2qTFoLQSQO0M.png?lossless=1" alt="" />
             </div>
 
