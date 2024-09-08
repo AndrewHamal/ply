@@ -2,6 +2,7 @@ import Image from "next/image";
 import Button from "./components/Button";
 import Navbar from "./components/Navbar";
 import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
 
       {/* hero section  */}
       <section className="lg:container m-auto px-2">
-        <div className="grid md:grid-cols-2 my-[40px] md:my-[130px]">
+        <div className="grid md:grid-cols-2 my-[40px] md:mt-[130px] md:mb-[100px]">
           <div>
             <h1 className="font-[roc-wide] leading-[60px] tracking-widest uppercase text-5xl text-[#160e41]">
               Enroll providers with payers. Fast. with <span className="text-[#5d927c]">Plyhealth</span>
@@ -52,38 +53,55 @@ export default function Home() {
 
 
       <section className="mb-[130px]">
-        <div className="lg:container m-auto px-2">
+        <div className="m-auto">
 
-          <div className="flex justify-around overflow-x-scroll overflow-y-hidden py-11 gap-3">
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl min-w-[150px] w-[150px] rounded-full">
+          <Marquee className="flex justify-around overflow-x-scroll overflow-y-hidden py-11 gap-3">
+            <div className="mr-7 flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl min-w-[150px] w-[150px] rounded-full">
               <img src="https://framerusercontent.com/images/z2xx6nATDqM6XREt0ucbwDCPfpg.png?lossless=1" alt="" />
             </div>
 
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
+            <div className="mr-7 flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
               <img src="https://framerusercontent.com/images/wY9RIxgLiXyXjSxIO9GUAmsDBuc.png?lossless=1" alt="" />
             </div>
 
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
+            <div className="mr-7 flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
               <img src="https://framerusercontent.com/images/Uj4C6y711Y0m6sLNpnxguEVcsA.png?lossless=1" alt="" />
             </div>
 
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
+            <div className="mr-7 flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
               <img src="https://framerusercontent.com/images/Aq1YUSgWQhugL0e6V65qsh56w.png?lossless=1" alt="" />
             </div>
 
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
+            <div className="mr-7 flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
               <img src="https://framerusercontent.com/images/eHLgawarL07Kd6ynZxUPkTQ6Y0.png?lossless=1" alt="" />
             </div>
 
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
+            <div className="mr-7 flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
               <img src="https://framerusercontent.com/images/QyzhIE3BkkW4aW0MxWhEixYTbSo.png?scale-down-to=1024&lossless=1" alt="" />
             </div>
 
-            <div className="flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
+            <div className="mr-7 flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
               <img src="https://framerusercontent.com/images/s2ypBqG4b7jxy8ZDOPmz3AGBTQk.png?scale-down-to=1024&lossless=1" alt="" />
             </div>
 
-          </div>
+
+            <div className="mr-7 flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
+              <img src="https://framerusercontent.com/images/Aq1YUSgWQhugL0e6V65qsh56w.png?lossless=1" alt="" />
+            </div>
+
+            <div className="mr-7 flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
+              <img src="https://framerusercontent.com/images/eHLgawarL07Kd6ynZxUPkTQ6Y0.png?lossless=1" alt="" />
+            </div>
+
+            <div className="mr-7 flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
+              <img src="https://framerusercontent.com/images/QyzhIE3BkkW4aW0MxWhEixYTbSo.png?scale-down-to=1024&lossless=1" alt="" />
+            </div>
+
+            <div className="mr-7 flex items-center justify-center shadow-[#000]/[0.05] bg-[#fff] h-[150px] p-6 shadow-xl  min-w-[150px] w-[150px] rounded-full">
+              <img src="https://framerusercontent.com/images/s2ypBqG4b7jxy8ZDOPmz3AGBTQk.png?scale-down-to=1024&lossless=1" alt="" />
+            </div>
+
+          </Marquee>
         </div>
       </section>
 
@@ -96,20 +114,29 @@ export default function Home() {
           </div>
 
           <div className="px-4 grid md:grid-cols-3 md:pt-[135px] gap-10">
-            <div className="glossy-card relative">
-              <div className="absolute top-[-15px] left-[-15px]">
-                <img className="w-[60px] shadow-xl shadow-[#5d927c63] rounded-full" src="https://framerusercontent.com/images/6J8qq3CP85WMDvWDjsiLDc49NWM.png?lossless=1" alt="" />
+
+            <div className="relative">
+              <div className="absolute z-[-1] top-[-15px] left-[-15px]">
+                <div className="h-[85px] w-[85px] text-[25px] bg-linear flex items-center justify-center rounded-full text-[#fff] shadow-xl shadow-[#5d927c]">
+
+                </div>
               </div>
 
-              <h3 className="font-[roc-wide] text-[#160e41] text-2xl">Digital telehealth</h3>
+              <div className="glossy-card relative">
+                <div className="mb-5">
+                  <img className="bg-[#5d927c] p-1 w-[60px] shadow-xl shadow-[#5d927c63] rounded-full" src="https://framerusercontent.com/images/6J8qq3CP85WMDvWDjsiLDc49NWM.png?lossless=1" alt="" />
+                </div>
 
-              <p className="mt-2">Enter provider data once and get in network with payers nation-wide.</p>
+                <h3 className="font-[roc-wide] text-[#160e41] text-2xl">Digital telehealth</h3>
+
+                <p className="mt-2">Enter provider data once and get in network with payers nation-wide.</p>
+              </div>
+
             </div>
-
             <div className="md:mt-[-80px]">
               <div className="glossy-card relative">
-                <div className="absolute top-[-15px] left-[-15px]">
-                  <img className="w-[60px] shadow-xl shadow-[#5d927c63] rounded-full" src="https://framerusercontent.com/images/WTDkmewiY9bIhoKjLYOaYjCPSkY.png?lossless=1" alt="" />
+                <div className="mb-5">
+                  <img className="bg-[#5d927c] p-1 w-[60px] shadow-xl shadow-[#5d927c63] rounded-full" src="https://framerusercontent.com/images/WTDkmewiY9bIhoKjLYOaYjCPSkY.png?lossless=1" alt="" />
                 </div>
 
                 <h3 className="font-[roc-wide] text-[#160e41] text-2xl">Managed service organization (MSO)</h3>
@@ -119,8 +146,8 @@ export default function Home() {
             </div>
 
             <div className="glossy-card relative">
-              <div className="absolute top-[-15px] left-[-15px]">
-                <img className="w-[60px] shadow-xl shadow-[#5d927c63] rounded-full" src="https://framerusercontent.com/images/ivA1CzAdVq3nb0zszap062ZOxqk.png?lossless=1" alt="" />
+              <div className="mb-5">
+                <img className="bg-[#5d927c] p-1 w-[60px] shadow-xl shadow-[#5d927c63] rounded-full" src="https://framerusercontent.com/images/ivA1CzAdVq3nb0zszap062ZOxqk.png?lossless=1" alt="" />
               </div>
 
               <h3 className="font-[roc-wide] text-[#160e41] text-2xl">Traditional clinic</h3>
@@ -140,14 +167,15 @@ export default function Home() {
           </div>
 
 
-          <div className="flex gap-11 mt-11">
+          <div className="flex gap-8 md:gap-20 mt-11">
             <div className="relative">
               <div className="absolute left-[50%] translate-x-[-50%] shadow bg-[#fafafa] w-[15px] h-[15px] border-[#5d927c] border-[4px] rounded-full"></div>
               <div className="h-[100%] w-[2px] bg-[#0505050f]"></div>
 
               <div className="absolute bottom-0 left-[50%] translate-x-[-50%] shadow bg-[#fafafa] w-[15px] h-[15px] border-[#5d927c]  border-[4px] rounded-full"></div>
             </div>
-            <div className="grid grid-cols-2 gap-11 py-11">
+
+            <div className="grid grid-cols-2 gap-11 py-11 flex-grow">
               <div className="my-auto">
                 <div className="self-start">
                   <h3 className="text-2xl uppercase font-[roc-wide] text-[#160e41]">One click apply</h3>
@@ -178,12 +206,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex gap-11">
+          <div className="flex gap-8 md:gap-20">
             <div className="relative">
               <div className="h-[100%] w-[2px] bg-[#0505050f]"></div>
               <div className="absolute bottom-0 left-[50%] translate-x-[-50%] shadow bg-[#fafafa] w-[15px] h-[15px] border-[#5d927c]  border-[4px] rounded-full"></div>
             </div>
-            <div className="grid grid-cols-2 gap-11 py-11">
+            <div className="grid grid-cols-2 gap-11 py-11 flex-grow">
               <div>
                 <Image
                   width={0}
@@ -216,13 +244,13 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex gap-11">
+          <div className="flex gap-8 md:gap-20">
             <div className="relative">
               <div className="h-[100%] w-[2px] bg-[#0505050f]"></div>
 
               <div className="absolute bottom-0 left-[50%] translate-x-[-50%] shadow bg-[#fafafa] w-[15px] h-[15px] border-[#5d927c]  border-[4px] rounded-full"></div>
             </div>
-            <div className="grid grid-cols-2 gap-11 py-11">
+            <div className="grid grid-cols-2 gap-11 py-11 flex-grow">
               <div className="my-auto">
                 <div className="self-start">
                   <h3 className="text-2xl uppercase font-[roc-wide] text-[#160e41]">Get in network fast</h3>
